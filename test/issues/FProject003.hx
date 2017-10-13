@@ -1,0 +1,11 @@
+import net.fproject.FprojectInternal;
+
+class FProject002
+{
+    @:access(SomeClass.someCustomNamespaceMethod)
+    public function new()
+    {
+        var a : SomeClass = new SomeClass();
+        a.someCustomNamespaceMethod();
+    }
+}
