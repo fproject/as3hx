@@ -1,5 +1,6 @@
 package as3hx.parsers;
 
+import as3hx.As3.Expr;
 import as3hx.As3;
 import as3hx.Config;
 import as3hx.Tokenizer;
