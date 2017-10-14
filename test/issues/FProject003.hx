@@ -1,6 +1,6 @@
 import net.fproject.FprojectInternal;
 
-class FProject002
+class FProject003
 {
     @:access(SomeClass.someCustomNamespaceMethod)
     public function new()

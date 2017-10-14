@@ -1,7 +1,7 @@
 package {
     import net.fproject.fproject_internal;
-    public class FProject002 {
-        public function FProject002(){
+    public class FProject003 {
+        public function FProject003(){
             var a:SomeClass = new SomeClass();
             a.fproject_internal::someCustomNamespaceMethod();
         }

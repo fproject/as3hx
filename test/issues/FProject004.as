@@ -1,15 +1,15 @@
-package net.fproject.calendar
+package net.fproject.somepkage
 {
 import net.fproject.fproject_internal;
 
-public class WorkCalendar extends OptimisticLockModel
+public class FProject004
 {
-    fproject_internal var _gregorianCalendar:GregorianCalendar;
+    fproject_internal var member:AbcClass;
 
-    public function WorkCalendar(name:String = CALRENDAR_NAME_DEFAULT,
-                                 baseCalendar:WorkCalendar = null)
+    public function FProject004(name:String = CALRENDAR_NAME_DEFAULT,
+                                 baseCalendar:AbcClass = null)
     {
-        fproject_internal::_gregorianCalendar = InstanceFactory.getInstance(GregorianCalendar);
+        fproject_internal::member = AbcClass.getInstance(GregorianCalendar);
     }
 
    }
