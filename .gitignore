@@ -7,3 +7,5 @@ run.n
 /.temp/
 /out/
 /test/issues/generated/
+
+*.hxproj
